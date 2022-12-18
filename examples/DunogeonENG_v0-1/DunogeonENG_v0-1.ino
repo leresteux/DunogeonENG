@@ -4,7 +4,7 @@ This is V0.1, english version.
   Good adventure.
 */
 
-#include "dunogeon.h"
+#include "dunogeonENG.h"
 
 DUNOGEON mydungeon;
 
