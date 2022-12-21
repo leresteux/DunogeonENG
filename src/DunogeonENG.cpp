@@ -26,7 +26,10 @@ void DUNOGEON::quest(){
  Serial.println(F("Welcome to the DUNOGEON!"));
 breakTime(3000);
  Serial.println(F("!!Attention this program functions with a speed 115200 for the serial monitor!!"));
-breakTime(3000);
+ breakTime(3000);
+ Serial.println(F("Words in UPPERCASE are usable, but you must type them in lowercase."));
+  Serial.println(F("Example: to go RIGHT, write 'right' "));
+ breakTime(3000);
  Serial.println(F("You will have to survive in this dungeon, ranging from 5 to 10 rooms."));
 breakTime(3000);
  Serial.println(F("The LED integrated into the Arduino and linked to pin 13 represents your heartbeats."));
